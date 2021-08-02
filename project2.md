@@ -50,3 +50,33 @@ sudo nginx -t
 ![image](https://user-images.githubusercontent.com/83317716/127904230-d0af4139-c6b4-476d-a2a7-cba0811bee2c.png)
 
 sudo unlink /etc/nginx/sites-enabled/default
+
+sudo systemctl reload nginx
+
+sudo echo 'Hello LEMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectLEMP/index.html
+
+STEP 5 – TESTING PHP WITH NGINX
+
+sudo nano /var/www/projectLEMP/info.php
+
+![image](https://user-images.githubusercontent.com/83317716/127905295-b1db8710-aff4-461a-9e36-4b1ca1aed7e9.png)
+
+sudo rm /var/www/your_domain/info.php
+
+STEP 6 – RETRIEVING DATA FROM MYSQL DATABASE WITH PHP
+
+sudo mysql
+
+mysql> CREATE DATABASE `example_database`;
+
+mysql>  CREATE USER 'example_user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
+mysql> GRANT ALL ON example_database.* TO 'example_user'@'%';
+
+![image](https://user-images.githubusercontent.com/83317716/127905555-3ac5a39e-b924-4d18-b1cd-7f97b37da479.png)
+
+mysql -u example_user -p
+
+mysql> SHOW DATABASES;
+
+![image](https://user-images.githubusercontent.com/83317716/127905648-f9962a34-4edb-4582-b1d9-04ee4e97e215.png)

@@ -49,9 +49,29 @@ Now we will Install NodeJS with below command
 
 ![step2-npm-init](https://user-images.githubusercontent.com/83317716/128595552-645fecb0-dba3-4ae9-9ec2-a6294949e859.JPG)
 
-#Add a file with vi server.js
+#Add a file with 
+
+#vi server.js
 
 #![step2-serverjs](https://user-images.githubusercontent.com/83317716/128595447-c3ae7f98-6119-49be-9067-82d54eebaa6b.JPG)
+
+
+#Step 3: Install Express and set up routes to the server
+
+#sudo npm install express mongoose
+
+![step3-instalmoongose](https://user-images.githubusercontent.com/83317716/128595603-32e7d042-7b48-420d-aaa6-ad971be539eb.JPG)
+
+#mkdir apps && cd apps
+
+#vi routes.js
+
+#mkdir models && cd models
+
+#vi book.js
+
+![step3-routesjs-models-books](https://user-images.githubusercontent.com/83317716/128595645-7fce36d5-334b-4ad5-85bc-3f97323aee55.JPG)
+
 
 
      

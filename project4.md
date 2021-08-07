@@ -47,6 +47,10 @@ Now we will Install NodeJS with below command
 
 #npm init
 
+![step2-npm-init](https://user-images.githubusercontent.com/83317716/128595552-645fecb0-dba3-4ae9-9ec2-a6294949e859.JPG)
+
+#Add a file with vi server.js
+
 #![step2-serverjs](https://user-images.githubusercontent.com/83317716/128595447-c3ae7f98-6119-49be-9067-82d54eebaa6b.JPG)
 
 

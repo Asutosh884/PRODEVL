@@ -36,7 +36,8 @@ Now we will Install NodeJS with below command
 
 #sudo apt install -y npm
 
-![step2-npm-init](https://user-images.githubusercontent.com/83317716/128595388-3238bf33-96db-44b2-b66b-8c642cf041f4.JPG)
+![step2-npm-install](https://user-images.githubusercontent.com/83317716/128595511-00e3e246-3b77-4c62-9aac-739c7114ba14.JPG)
+
 
 #sudo npm install body-parser
 

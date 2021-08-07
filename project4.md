@@ -72,7 +72,33 @@ Now we will Install NodeJS with below command
 
 ![step3-routesjs-models-books](https://user-images.githubusercontent.com/83317716/128595645-7fce36d5-334b-4ad5-85bc-3f97323aee55.JPG)
 
+#Step 4 – Access the routes with AngularJS
 
+#Change the directory back to ‘Books’
+
+#cd ../..
+
+#mkdir public && cd public
+
+#vi script.js
+
+#vi index.html
+
+![step4-indexhtml](https://user-images.githubusercontent.com/83317716/128595736-4acb22fd-e511-480a-99b2-4e2a008e886d.JPG)
+
+#change directory to Books and Start the server with below command
+
+#node server.js
+
+![step4-node-serverjsstarted](https://user-images.githubusercontent.com/83317716/128595765-6ee2d1b6-7f7e-47fa-93a1-ba8ab0ba9b2b.JPG)
+
+#we need to open TCP port 3300 in AWS Web Console for EC2 Instance.
+
+#Now you can access our Book Register web application from the Internet with a browser using Public IP address or Public DNS name.
+
+This is how your Web Book Register Application will look like in browser:
+
+![step4-browserview](https://user-images.githubusercontent.com/83317716/128595840-29989c41-a7c4-417c-a181-0e3551c4373c.JPG)
 
      
      

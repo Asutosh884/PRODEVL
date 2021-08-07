@@ -11,6 +11,7 @@
      
      # sudo apt install -y nodejs
      
-     ![step1-nodejs-installnodejs](https://user-images.githubusercontent.com/83317716/128594057-1c5ae8ae-c7c2-4fd3-b694-094002562984.JPG)
+     ![step1-nodejs-installnodejs](https://user-images.githubusercontent.com/83317716/128594097-95206750-becc-4a18-a971-204756e0492d.JPG)
+
 
      

@@ -10,8 +10,10 @@
      Now we will Install NodeJS with below command
      
      sudo apt install -y nodejs
+     ![step1-nodejs-installnodejs](https://user-images.githubusercontent.com/83317716/128594139-57f45a68-fa71-42df-a47d-4a7d79b5cc45.JPG)
+
      
-     ![step1-nodejs-installnodejs](https://user-images.githubusercontent.com/83317716/128594097-95206750-becc-4a18-a971-204756e0492d.JPG)
+     
 
 
      
